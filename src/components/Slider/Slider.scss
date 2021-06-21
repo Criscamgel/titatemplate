@@ -1,0 +1,42 @@
+@import '../../scss/variables';
+@import '../../scss/fonts';
+
+.contenedorSlider{
+    display: grid;
+    grid-template-columns: $margenFina 20% 50% 20% $margenFina;
+    grid-template-rows: 30vh auto 30vh;
+    background-color: $colorBase;
+    .contenido{
+        grid-column: 3;
+        grid-row: 2;
+        display: grid;
+        row-gap: 15px;
+        .titulo{
+            font-family: 'Questrial';
+            font-weight: 800;
+            font-size: 25px;
+            justify-self: center;
+            text-align: center;
+            color: white;
+            letter-spacing: 10px;
+        }
+        .parrafo{
+            font-size: 10px;
+            margin: 2vh 0;
+            color: white;
+            padding: 0 20%;
+            text-align: center;
+        }
+        button{
+            width: 15%;
+            justify-self: center;
+            text-align: center;
+            color: $colorBase;
+            outline: none;
+            border:none;
+            font-size: 9px;
+            padding: 5px 0;
+            cursor: pointer;
+        }
+    }
+}

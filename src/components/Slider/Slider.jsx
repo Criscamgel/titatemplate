@@ -1,9 +1,22 @@
-import React from 'react'
+import React from 'react';
+import './Slider.scss';
 
 export const Slider = () => {
     return (
-        <div>
-            <h1>Slider</h1>
-        </div>
+        <>
+            <div className="contenedorSlider">
+                <div className="side"></div>
+                <div className="contenido">
+                    <p className="titulo">
+                        EXPLORE BEYOND HORIZON
+                    </p>
+                    <p className="parrafo">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur non, nostrum laboriosam, rerum ut placeat vitae blanditiis minima atque mollitia eius molestias.
+                    </p>
+                    <button>VIEW OUR WORK</button>
+                </div>
+                <div className="side"></div>
+            </div>
+        </>
     )
 }
