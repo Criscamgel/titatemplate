@@ -5,7 +5,7 @@ export const Slider = () => {
     return (
         <>
             <div className="contenedorSlider">
-                <div className="side"></div>
+                
                 <div className="contenido">
                     <p className="titulo">
                         EXPLORE BEYOND HORIZON
@@ -15,7 +15,7 @@ export const Slider = () => {
                     </p>
                     <button>VIEW OUR WORK</button>
                 </div>
-                <div className="side"></div>
+                
             </div>
         </>
     )

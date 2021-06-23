@@ -1,4 +1,5 @@
 @import "./scss/fonts";
+@import "./scss/variables";
 
 * {
   box-sizing: border-box;
@@ -18,5 +19,22 @@
   *:focus, textarea:focus, input:focus, input{
     outline: none;
     border:none;
+  }
+
+  button{
+    width: 15%;
+    justify-self: center;
+    text-align: center;
+    color: $colorBase;
+    outline: none;
+    border:none;
+    font-size: 9px;
+    padding: 5px 0;
+    cursor: pointer;
+  }
+
+  button.negative{
+    color: white;
+    background-color: $colorBase;
   }
 }
