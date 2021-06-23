@@ -49,11 +49,17 @@
             .search{
                 display: grid;
                 grid-template-columns: 15% auto;
+
                 i{
                     font-size: 15px;
                     align-self: center;
                     justify-self: center;
                     color: $colorBase;
+                }
+                input{
+                    @include tabletLaptop(){
+                        width: 20%;
+                    }
                 }
             }
         }
