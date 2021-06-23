@@ -12,7 +12,7 @@ export const Gallery = () => {
     }, [images])
 
     const getImages = async() => {
-        const resp = await axios.get(process.env.REACT_APP_DEV_IMG_API_URL);
+        const resp = await axios.get(process.env.REACT_APP_PROD_IMG_API_URL);
         const { data } = await resp;
         setImages(data);
     }

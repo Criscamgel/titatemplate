@@ -19,7 +19,7 @@ export const Navbar = () => {
       const getMenus = async() => {
 
             try {
-            const resp = await axios.get(process.env.REACT_APP_DEV_MENU_API_URL);
+            const resp = await axios.get(process.env.REACT_APP_PROD_MENU_API_URL);
             const { data } = await resp;
             setMenu(data);
             setMenuglobal(data);
