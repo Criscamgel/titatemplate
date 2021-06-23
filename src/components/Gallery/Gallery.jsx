@@ -31,7 +31,10 @@ export const Gallery = () => {
                     <div className="column">
                     { images.row1 &&                    
                         images.row1.map(image => (
-                            <img src={image.value} alt="" />
+                            <img 
+                            key={image.key}
+                            src={image.value} 
+                            alt="" />
                         ))
                         
                     }
@@ -39,7 +42,10 @@ export const Gallery = () => {
                     <div className="column">
                     { images.row2 &&                    
                         images.row2.map(image => (
-                            <img src={image.value} alt="" />
+                            <img 
+                            key={image.key}
+                            src={image.value} 
+                            alt="" />
                         ))
                         
                     }
@@ -47,7 +53,10 @@ export const Gallery = () => {
                     <div className="column">
                     { images.row3 &&                    
                         images.row3.map(image => (
-                            <img src={image.value} alt="" />
+                            <img 
+                            key={image.key}
+                            src={image.value} 
+                            alt="" />
                         ))
                         
                     }
