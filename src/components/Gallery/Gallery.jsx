@@ -12,9 +12,13 @@ export const Gallery = () => {
     }, [images])
 
     const getImages = async() => {
+        try {
         const resp = await axios.get(process.env.REACT_APP_PROD_IMG_API_URL);
         const { data } = await resp;
         setImages(data);
+        }catch(err) {
+        alert(`!UPS! Ocurrio un error con el servicio de menus, por favor vuelve a ingresar mas tarde, Error: ${err}`);
+        }
     }
 
     return (
