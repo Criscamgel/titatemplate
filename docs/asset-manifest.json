@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.6da2336f.chunk.css",
+    "main.css": "./static/css/main.cc7a9f7c.chunk.css",
     "main.js": "./static/js/main.87f500b7.chunk.js",
     "main.js.map": "./static/js/main.87f500b7.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.682024f5.js",
@@ -12,7 +12,7 @@
     "static/js/3.03b75910.chunk.js.map": "./static/js/3.03b75910.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.1a33fe6a.chunk.css.map": "./static/css/2.1a33fe6a.chunk.css.map",
-    "static/css/main.6da2336f.chunk.css.map": "./static/css/main.6da2336f.chunk.css.map",
+    "static/css/main.cc7a9f7c.chunk.css.map": "./static/css/main.cc7a9f7c.chunk.css.map",
     "static/js/2.f7288bdb.chunk.js.LICENSE.txt": "./static/js/2.f7288bdb.chunk.js.LICENSE.txt",
     "static/media/Slider.scss": "./static/media/Questrial-Regular.96dd668f.ttf",
     "static/media/font-awesome.min.css": "./static/media/fontawesome-webfont.f691f37e.woff"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.682024f5.js",
     "static/css/2.1a33fe6a.chunk.css",
     "static/js/2.f7288bdb.chunk.js",
-    "static/css/main.6da2336f.chunk.css",
+    "static/css/main.cc7a9f7c.chunk.css",
     "static/js/main.87f500b7.chunk.js"
   ]
 }
