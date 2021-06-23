@@ -1,15 +1,36 @@
 @import "../../scss/variables";
+@import '../../scss/mixins';
 
 .contenedorGallery {
-  margin: 50px 0;
+  margin: 25px 0;
   display: grid;
   grid-template-columns: $margenFina 20% auto 20% $margenFina;
+  /* Responsive */
+  @include smallTablet(){
+    grid-template-columns: 5% auto 5%;
+    }
+    @include Asmall(){
+    grid-template-columns: 5% auto 5%;
+    }
   .menuGalleryContainer {
     grid-column: 3;
+    @include smallTablet(){
+        grid-column: 2;
+    }
+    @include Asmall(){
+        grid-column: 2;
+    }
   }
   .gallery {
     grid-column: 3;
     display: grid;
+    /* Responsive */
+    @include smallTablet(){
+        grid-column: 2;
+    }
+    @include Asmall(){
+        grid-column: 2;
+    }
     .row {
       align-self: center;
       justify-self: center;

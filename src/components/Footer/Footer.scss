@@ -1,0 +1,27 @@
+@import '../../scss/variables';
+
+.footerContainer{
+    display: grid;
+    p{
+      align-self: center;
+      justify-self: center;
+      font-size: 10px;
+      color: #C2CFD7;
+      b{
+        color: $colorBase;
+      }
+    }
+    .socialContainer{
+      margin: 30px 0;
+      align-self: center;
+      justify-self: center;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 5px;
+      i{
+        align-self: center;
+        justify-self: center;
+        color: #C2CFD7;  
+      }
+    }
+}

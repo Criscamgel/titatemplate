@@ -1,16 +1,33 @@
 @import '../../scss/variables';
 @import '../../scss/fonts';
+@import '../../scss/mixins';
 
 .contenedorSlider{
     display: grid;
     grid-template-columns: $margenFina 20% 50% 20% $margenFina;
     grid-template-rows: 30vh auto 30vh;
     background-color: $colorBase;
+    /* Responsive */
+    @include smallTablet(){
+        grid-template-columns: 5% auto 5%;
+        grid-template-rows: 10vh auto 10vh;
+    }
+    @include Asmall(){
+        grid-template-columns: 5% auto 5%;
+        grid-template-rows: 10vh auto 10vh;
+    }
     .contenido{
         grid-column: 3;
         grid-row: 2;
         display: grid;
         row-gap: 15px;
+        /* Responsive */
+        @include smallTablet(){
+            grid-column: 2;
+        }
+        @include Asmall(){
+            grid-column: 2;
+        }
         .titulo{
             font-family: 'Questrial';
             font-weight: 800;

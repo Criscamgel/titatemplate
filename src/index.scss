@@ -1,5 +1,7 @@
 @import "./scss/fonts";
 @import "./scss/variables";
+@import "./scss/mixins";
+
 
 * {
   box-sizing: border-box;
@@ -31,6 +33,12 @@
     font-size: 9px;
     padding: 5px 0;
     cursor: pointer;
+    @include smallTablet(){
+      width: 40%;
+      }
+      @include Asmall(){
+      width: 40%;
+      }
   }
 
   button.negative{
