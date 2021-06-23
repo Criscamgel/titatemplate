@@ -64,7 +64,7 @@ export const Navbar = () => {
                         </ul>
                 </div>
                 <div className="menuResponsive" onClick={() => setAbrirMenu(true)}>
-                    <i class="fa fa-bars"></i>
+                    <i className="fa fa-bars"></i>
                 </div>
             </div>
         </>
