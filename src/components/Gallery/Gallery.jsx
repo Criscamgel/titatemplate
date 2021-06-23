@@ -9,7 +9,7 @@ export const Gallery = () => {
 
     useEffect(() => {
         getImages();
-    }, [images])
+    }, [])
 
     const getImages = async() => {
         try {
